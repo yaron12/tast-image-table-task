@@ -1,0 +1,34 @@
+body, .wrap, .up, .middle, .down, header, span, footer, h1, width, div, nav, ul, li, h1, h2, h3, h4, h5, h6, hr, a, p {
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	text-align: center;
+	font-family: Tahoma;
+	font-size: 24px;
+	margin-bottom: 50px;
+}
+#nav ,#section{
+	font-family: Tahoma;
+	font-size: 12px;
+}
+#nav {
+	line-height: 50px;
+	height: 600px;
+	width: 300px;
+	float:left;
+	 box-shadow:3px 3px 5px green;
+	 margin: 0 50px;
+	 
+	
+}
+#section {
+	
+	height: 600px;
+	
+	padding: 20px;
+	
+}
+
+

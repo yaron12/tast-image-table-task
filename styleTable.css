@@ -1,0 +1,44 @@
+body{
+	font-size: 14px;
+}
+td{
+	border: 0.1px solid;
+	width: 60px;
+	height: 15px;
+}
+table{
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+.table1 tr td:nth-child(odd)
+{
+	box-shadow:  3px 3px black;
+}
+.table1 tr:first-child td:nth-child(2)
+{
+	 box-shadow: inset 2px 2px 5px black;
+
+}
+.table1 tr:first-child td:first-child 
+{
+	box-shadow:0 0 3px 3px black;
+}
+
+
+.table2 tr td:nth-child(3)
+{
+	 box-shadow: 0 0 3px 3px black;
+}
+.table2 tr td:nth-child(5)
+{
+	 font-size: 2em;
+
+}
+.table2 tr:last-child td 
+{
+	box-shadow:  2px 2px red, 4px 4px orange, 6px 6px yellow
+}
+.table2 td {
+	padding:0;
+	height: 5px;
+}

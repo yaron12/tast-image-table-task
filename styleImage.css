@@ -1,0 +1,26 @@
+/*  part 1
+ img {
+ width: 800px;
+ height: 600px;
+ border-radius: 20px;
+ }
+ */
+
+body {
+	background: linear-gradient(red, orange,white);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 800px;
+}
+
+img {
+	height: 50px;
+}
+li {
+	font-size: 150px;
+}
+.finish {
+	background-image: url("finish.jpg");
+	background-size: 100% 500px;
+	background-repeat: no-repeat;
+}
